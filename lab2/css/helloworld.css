@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  font-size: 60px;
+}
+
+p {
+  text-indent: 20px;
+  font-size: 19px;
+}
+
+#content {
+  background-color: lightyellow;
+  border: 3px;
+  border-style: solid;
+}
+
+body {
+  background-color: green;
+}
+
+img {
+  margin-left: 2px;
+}
