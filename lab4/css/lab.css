@@ -1,0 +1,23 @@
+#instructions {
+  font-size: 20px;
+  border: solid 4px white;
+  background-color: #a1f7ea;
+}
+
+pre {
+  font-size: 20px;
+}
+
+#main {
+  font-size: 20px;
+  border: solid 4px white;
+  background-color: #a1f7ea;
+}
+
+body {
+  background-color: #1a9c88;
+}
+
+#header {
+  font-size: 30px;
+}
