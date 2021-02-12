@@ -1,0 +1,38 @@
+#writing {
+  font-size: 20px;
+  border: 3px double black;
+  margin-right: 1000px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #f7ef77;
+}
+
+img {
+  position: relative;
+  bottom: 310px;
+  float: right;
+}
+
+body {
+  background-color: white;
+  border: 3px solid black;
+}
+
+html {
+  background-color: lightgrey;
+}
+
+p {
+  margin-right: 800px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+h1 {
+  padding: 1px;
+}
+
+a {
+  font-size: 22px;
+}
