@@ -1,0 +1,27 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-image: url("../img/arrows.png");
+}
+
+p {
+    line-height: 30px;
+}
+
+#content {
+  border: 4px dashed black;
+  padding-left: 7px;
+  background-color: #03159c;
+  color: white;
+}
+
+#script {
+  border: 4px dashed black;
+  background-color: #03159c;
+  color: white;
+}
+
+a {
+  display: block;
+  background-color: lightblue;
+  margin-right: 1300px;
+}
