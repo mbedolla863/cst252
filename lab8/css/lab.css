@@ -1,0 +1,17 @@
+body {
+  background-color: #FADF77;
+}
+
+#content {
+  border: 2px dashed black;
+  background-color:  #FAE9B6;
+  padding-left: 3px;
+  font-size: 20px;
+}
+
+#script {
+  border: 3px solid black;
+  font-size: 24px;
+  background-color: #FAE9B6;
+  letter-spacing: 1px;
+}
