@@ -3,6 +3,7 @@
 // Created: February 16
 
 //if formula to 1 to 200
+//show results of numbers
 for (var i = 1; i<=200; i++) {
   outputEl = document.getElementById("output");
   newEl = document.createElement("p");
@@ -36,5 +37,3 @@ for (var i = 1; i<=200; i++) {
     console.log(i);
   }
 }
-
-//show results in output div
