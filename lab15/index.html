@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15 Homepage</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<h1>LAB 15</h1>
+
+</head>
+<body>
+	<div id="content">
+	<h1>The subject of this lab</h1>
+		<p>For lab 14, we reviewed what we knew about objects. As well, creating classes and instantiating.</p>
+	<h1>Difficulties</h1>
+	 	<p>Not much difficulties here. Thankfully, Wes bascially went over it at the end of class.</p>
+	<h1>Results</h1>
+		<p>After plugging in my information of vehicles, everything was up and running. My java appeared on the screen and was content.</p>
+	</div>
+	<br>
+		<img src="img/honda.jpg" width="400px">
+		<img src="img/hyundai_2.jpg" width="400px">
+		<img src="img/r6.png" width="400px">
+	<ul id="output">
+	</ul>
+
+	<script src="js/lab15.js" defer></script>
+<div id="java">
+	<h1>O.O.P. design</h1>
+	<h2>1. Understand the Problem</h2>
+	<pre>• Set up game with board and players
+	• Game loop
+	• Draw the board
+	• Choose random word
+	• Get guess from players
+	• Validate letter
+	• Check for correct or wrong letter
+	• Finish game if player has guessed the word or completed the body</pre>
+
+	<h2>2. Pseudocode the High Level Approach</h2>
+	<pre>Set up game
+	   Create game board
+	Create players
+	   Start game loop
+	   Render board
+	   Generate random word
+	   Display length with lines of word to players
+	   Get letters from players
+	   If letter is correct, display letter on line
+	   If wrong, draw body part on hanger
+	   Display wrong guess on the side
+	If game should end
+	   show victory or loss message
+	   Stop looping
+	Else
+	   Switch to next player and keep looping</pre>
+	<h2>3. Assign Actions to Objects</h2>
+	<pre>Set up game [hangman]
+	   Create game board [board]
+	Create players [player]
+	   Start game loop [hangman]
+	   Render board [board]
+	   Generate random word [hangman]
+	   Display length of word to players [board]
+	   Get letters from guessers and validate [player]
+	   If letter is correct, display on letter line [board]
+	   If wrong, draw body part on hanger [board]
+	   Display wrong guess on the side
+	If game should end [hangman]
+	   show victory or loss message
+	   Stop looping
+	Else
+	   Switch to next player and keep looping [hangman]</pre>
+	<h2>4. Make Javascript-ish Pseudocode</h2>
+	<pre>class Hangman
+	    initialize
+	        set up board
+	        set up players
+	        set up starting player
+
+	    play
+	        loop infinitely
+	            call the board rendering method
+	            generate random word
+	            display length of word to players
+	            get letters from guessers and validate
+
+	    check_game_over
+	        check_victory
+	        check_loss
+
+	    check_victory
+	        if board says word is complete
+	            display victory message
+
+	    check_loss
+	        if board says body is complete
+	            display loss message</pre>
+</div>
+<br>
+<div id="link">
+	<a class="sourcelink" href="js/lab15.js" target="source">JavaScript Source &gt;&gt;</a>
+</div>
+</body>
+</html>
