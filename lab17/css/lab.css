@@ -1,0 +1,27 @@
+body {
+  background-image: repeating-radial-gradient(white, grey);
+}
+
+#first, #second, #third {
+  border: 2px solid black;
+  background-color: white;
+  padding-left: 3px;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+}
+
+#first.kickflip {
+  background-color: lightblue;
+}
+
+#second.heelflip {
+  background-color: lightgreen;
+}
+
+#third.varial {
+  background-color: yellow;
+}
