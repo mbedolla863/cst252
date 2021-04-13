@@ -1,0 +1,14 @@
+body {
+  background-image: repeating-radial-gradient(white, black);
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  border: 3px double black;
+  background-color: green;
+  color: white;
+  margin: 10px;
+}
