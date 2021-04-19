@@ -1,5 +1,5 @@
 body {
-  background-image: repeating-radial-gradient(white, purple);
+  background-image: repeating-radial-gradient(white, orange);
 }
 
 #content {
@@ -20,8 +20,4 @@ a {
   background-color: white;
   font-size: 15px;
   margin-right: 600px;
-}
-
-#output {
-  border: 3px solid black;
 }
